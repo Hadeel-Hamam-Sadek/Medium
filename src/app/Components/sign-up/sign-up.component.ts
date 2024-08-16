@@ -28,7 +28,6 @@ export class SignUpComponent implements OnInit {
     this.email = '';
   }
   onSubmit() {
-    console.log('TAHA HUSSEIN');
 
     const signupData = {
       userName: this.userName,
